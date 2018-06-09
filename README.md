@@ -20,8 +20,12 @@ function get_memcached_servers () {
 }
 ```
 
+Any WordPress caching plugin that offers in-memory object caching (e.g. W3 Total Cache, WP Rocket etc.) can now utilize this object cache driver to store cache objects in Memcached backends.
+
+Enjoy :)
+
 ## License
 GNU/GPL v2
 
 ## Authors
-Fotis Alexandrou using code from Scott Taylor, Ryan Boren, Denis de Bernardy, Matt Martz, Mike Schroder, Mika Epstein.
+Big thanks to Fotis Alexandrou for patching and extending Memcached Redux (which uses code from Scott Taylor, Ryan Boren, Denis de Bernardy, Matt Martz, Mike Schroder, Mika Epstein). Silence is not golden m/f.
