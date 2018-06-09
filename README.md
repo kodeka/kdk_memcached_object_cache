@@ -28,4 +28,4 @@ Enjoy :)
 GNU/GPL v2
 
 ## Authors
-Big thanks to Fotis Alexandrou for patching and extending Memcached Redux (which uses code from Scott Taylor, Ryan Boren, Denis de Bernardy, Matt Martz, Mike Schroder, Mika Epstein). Silence is not golden m/f.
+Big thanks to [Fotis Alexandrou](https://github.com/falexandrou) for patching and extending [Memcached Redux](https://wordpress.org/plugins/memcached-redux/) (which uses code from Scott Taylor, Ryan Boren, Denis de Bernardy, Matt Martz, Mike Schroder, Mika Epstein). Silence is not golden m/f.
