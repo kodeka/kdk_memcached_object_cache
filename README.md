@@ -20,7 +20,7 @@ function get_memcached_servers () {
 }
 ```
 
-Any WordPress caching plugin that offers in-memory object caching (e.g. [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/), [WP Rocket](https://wp-rocket.me/) etc.) can now utilize this object cache driver to store cache objects in Memcached backends.
+Any WordPress caching plugin that offers in-memory object caching (e.g. [WP Rocket](https://wp-rocket.me/)) can now utilize this object cache driver to store cache objects in Memcached backends.
 
 Enjoy :)
 
