@@ -10,7 +10,7 @@ Upload this file to your WordPress site's /wp-content/ folder. Setup multiple Me
 */
 
 if (!defined('WP_CACHE_KEY_SALT')) {
-    define('WP_CACHE_KEY_SALT', '');
+    define('WP_CACHE_KEY_SALT', md5(dirname(__FILE__)));
 }
 
 if (class_exists('Memcached')) {
