@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: WP Memcached Object Cache
-Description: Object cache driver for Memcached in WordPress. Based on Memcached Redux.
-Version: 1.0.0
-Plugin URI: https://github.com/joomlaworks/wp-memcached-object-cache
-Author: Fotis Alexandrou (using code from Scott Taylor, Ryan Boren, Denis de Bernardy, Matt Martz, Mike Schroder, Mika Epstein)
-
-Upload this file to your WordPress site's /wp-content/ folder. Setup multiple Memcached backends by defining them in wp-config. Check the plugin repo on GitHub for further instructions.
-*/
+ * Plugin Name:  KDK Memcached Object Cache (by Kodeka)
+ * Plugin URI:   https://github.com/kodeka/kdk_memcached_object_cache
+ * Description:  Object cache driver for Memcached in WordPress. Based on Memcached Redux. Upload this file to your WordPress site's /wp-content/ folder. Setup multiple Memcached backends by defining them in wp-config. Check the plugin repo on GitHub for further instructions.
+ * Version:      1.0.0
+ * Author:       Fotis Alexandrou (using code from Scott Taylor, Ryan Boren, Denis de Bernardy, Matt Martz, Mike Schroder, Mika Epstein)
+ * Author URI:   https://kodeka.io
+ * License:      GNU/GPL https://www.gnu.org/copyleft/gpl.html
+ */
 
 if (!defined('WP_CACHE_KEY_SALT')) {
     define('WP_CACHE_KEY_SALT', md5(dirname(__FILE__)));

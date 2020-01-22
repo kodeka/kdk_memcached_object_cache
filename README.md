@@ -1,12 +1,16 @@
-# WP Memcached Object Cache
+# KDK Memcached Object Cache
 Object cache driver for Memcached in WordPress.
 
-Based on Memcached Redux with fixes for closing Memcached connections and an option to have multiple Memcached backends (defined as an array in wp-config.php).
+Based on Memcached Redux with corrections for handling Memcached connections and an option to have multiple Memcached backends (defined as an array in wp-config.php).
 
-## Install
-Upload this file to your WordPress site's /wp-content/ folder.
 
-Setup multiple Memcached backends by defining them in wp-config.
+## Installation
+
+Download the repo from https://github.com/kodeka/kdk_memcached_object_cache/archive/master.zip and extract it.
+
+Upload the object-cache.php file to your WordPress site's /wp-content/ folder.
+
+Setup multiple Memcached backends by defining them in wp-config.php like so:
 
 Example:
 ```
@@ -24,8 +28,11 @@ Any WordPress caching plugin that offers in-memory object caching (e.g. [WP Rock
 
 Enjoy :)
 
-## License
-GNU/GPL v2
 
-## Authors
+## License & Credits
+
 Big thanks to [Fotis Alexandrou](https://github.com/falexandrou) for patching and extending [Memcached Redux](https://wordpress.org/plugins/memcached-redux/) (which uses code from Scott Taylor, Ryan Boren, Denis de Bernardy, Matt Martz, Mike Schroder, Mika Epstein). Silence is not golden m/f.
+
+Licensed under the GNU/GPL license (https://www.gnu.org/copyleft/gpl.html).
+
+Copyright (c) 2018 - 2020 Kodeka OÜ. All rights reserved.
