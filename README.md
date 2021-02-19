@@ -1,4 +1,4 @@
-# KDK Memcached Object Cache (v1.0.0 / Jan 2020)
+# KDK Memcached Object Cache (v1.1 / Feb 2021)
 Object cache driver for Memcached in WordPress.
 
 Based on Memcached Redux with corrections for handling Memcached connections and an option to have multiple Memcached backends (defined as an array in wp-config.php).
