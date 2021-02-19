@@ -31,8 +31,10 @@ Enjoy :)
 
 ## License & Credits
 
+Maintained by Kodeka OÜ.
+
 Big thanks to [Fotis Alexandrou](https://github.com/falexandrou) for patching and extending [Memcached Redux](https://wordpress.org/plugins/memcached-redux/) (which uses code from Scott Taylor, Ryan Boren, Denis de Bernardy, Matt Martz, Mike Schroder, Mika Epstein). Silence is not golden m/f.
 
 Licensed under the GNU/GPL license (https://www.gnu.org/copyleft/gpl.html).
 
-Copyright (c) 2018 - 2020 Kodeka OÜ. All rights reserved.
+Copyright (c) 2018 - 2021 Kodeka OÜ. All rights reserved.
